@@ -5,7 +5,7 @@ options:
   logging: CLOUD_LOGGING_ONLY
 
 artifacts:
-  objects:
+  objects:{{[[    ]]}}}
     location: 'gs://${_ARTIFACTS_GCS_}/logs'
     paths: ['.logs/*.log']
 
